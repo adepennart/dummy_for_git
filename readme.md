@@ -1,8 +1,8 @@
 # intro to git
 ## why git?
 
-git was built for version control
-also allows branches to be built (ie. developer branch, main functional branch)
+Git was built for version control
+Also allows branches to be built (ie. developer branch, main functional branch)
 
 ## git as a user (not a developer)
 
@@ -12,16 +12,17 @@ also allows branches to be built (ie. developer branch, main functional branch)
 
 ## 1. download/cloning git repository from github
 
-find github repository of interest. In the top right should be a green button. Clicking on it, you will see writting 'clone' copy the https link below it. 
+Find github repository of interest. In the top right should be a green button. Clicking on it, you will see writting 'clone' copy the https link below it. 
 
 Find a directory you intend to work in.
 
 ```bash=
 #i.e.,
+mkdir dung_track
 cd dung_track
 ```
 
-Then we will clone directory in this directory
+Then we will clone repository in this directory
 ```bash=
 #i.e.,
 git clone https://github.com/refmitchell/autotracker-deluxe.git
@@ -40,7 +41,7 @@ git clone https://github.com/refmitchell/autotracker-deluxe.git
 If all works correctly you should have the repository downloaded in your intended directory!
 
 ## 2. update to local version with latest version on github
-If you want to update your local version with a update version on github. the following code will allow this.(ensure you are in the correct directory)
+If you want to update your local version with a update version on github. the following code will allow this.(ensure you are in the correct directory (i.e., ))
 ```bash=
 git pull
 ```
@@ -60,6 +61,9 @@ git log --oneline
 #298da0d Fix issue #9
 #49a195e Fixes issue #10
 #dda71a1 Fix issue #7
+
+#if you are stuck in log view
+#pressing q will get you out
 ```
 
 Then change to the version of interest. Each version has a id, so copy the from one of the versions and sue the following command
