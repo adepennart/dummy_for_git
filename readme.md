@@ -1,7 +1,7 @@
 # intro to git
 ## why git?
 
-Git was built for version control
+Git was built for version control.
 Also allows branches to be built (ie. developer branch, main functional branch)
 
 ## git as a user (not a developer)
